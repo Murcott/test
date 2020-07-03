@@ -13,3 +13,7 @@ permalink: /toc/
 </ul>
 
 [doc1](/test/doc1/)
+
+[about](/test/about/)
+
+[toc](/test/toc/)

@@ -30,18 +30,18 @@ github_username:  jekyll
 # Build settings
 # theme: minima
 plugins:
-  - jekyll-feed
- # - jekyll-paginate
+#  - jekyll-feed
+#  - jekyll-paginate
 
 collections:
   docs:
     output: true
     permalink: /_docs/:title/
-    sort_by: doc#
+#    sort_by: doc#
   pages:
     output: true
     permalink: /_pages/:title/
-    sort_by: page#
+#    sort_by: page#
 
 _config.yml:
  - permalink: none
@@ -65,13 +65,13 @@ header_pages:
 # their entries' file path in the `include:` list.
 #
 exclude:
-   - .sass-cache/
-   - .jekyll-cache/
-   - gemfiles/
-   - Gemfile
-   - Gemfile.lock
-   - node_modules/
-   - vendor/bundle/
-   - vendor/cache/
-   - vendor/gems/
-   - vendor/ruby/
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
