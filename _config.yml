@@ -28,22 +28,23 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+ # - jekyll-paginate
 
 collections:
   docs:
     output: true
-    permalink: /_docs/:path/
+    permalink: /_docs/:title/
     sort_by: doc#
   pages:
     output: true
-    permalink: /_pages/:path/
+    permalink: /_pages/:title/
     sort_by: page#
 
-
+_config.yml:
+ - permalink: none
 
 # Include directories/files
 # include: ['_pages']
@@ -63,14 +64,14 @@ header_pages:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/

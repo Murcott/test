@@ -12,3 +12,4 @@ permalink: /toc/
     {% endfor %}
 </ul>
 
+[doc1](/test/doc1/)
