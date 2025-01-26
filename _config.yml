@@ -34,11 +34,12 @@ github_username:  jekyll
 navigation: # Navigation links
   - {name: 'Home', link: '/'}
   - {name: 'About', link: '/about'}
-  - {name: 'Journal', link: '/contact'}
+  - {name: 'Journal', link: '/Journal'}
   - {name: 'Contact', link: '/contact'}
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 theme: jekyll-sleek
 plugins:
   - jekyll-feed
@@ -73,3 +74,13 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+include: ['_pages']
+permalink: /:title/
+
+compress_html:
+  clippings: all
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
